@@ -7,8 +7,8 @@ The ./data repository has all the scraped data formatted with field-consistently
 The ./qdrant repository has the code for vectorizing the data and keep them in the vector database. The vector database contains over 20k products
 
 ## Key points
-> We have used text-embedding-3-small model for generating text em,bedding
-> We have used clip-ViT-B-32 model for image embedding
+> We have used text-embedding-3-small model for generating text em,bedding <br>
+> We have used clip-ViT-B-32 model for image embedding <br>
 > One vector point contains multiple vector points (text and image) to increase robustness
 
 ## Integration of LLAVA
